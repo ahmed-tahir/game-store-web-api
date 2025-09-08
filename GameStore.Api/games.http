@@ -7,7 +7,7 @@ GET http://localhost:5252/games HTTP/1.1
 
 ###
 //games/{id}
-GET http://localhost:5252/games/6 HTTP/1.1
+GET http://localhost:5252/games/1 HTTP/1.1
 
 ###
 //games (POST)
