@@ -15,9 +15,9 @@ POST http://localhost:5252/games HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Elden Ring",
-    "genre": "Action RPG",
-    "price": 59.99,
+    "name": "God of War",
+    "genreId": 2,
+    "price": 29.99,
     "releaseDate": "2022-02-25"
 }
 
@@ -27,8 +27,8 @@ PUT http://localhost:5252/games/1 HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "The Legend of Zelda: Breath of the Wild (Updated)",
-    "genre": "Action-adventure",
+    "name": "God of War (Updated)",
+    "genreId": 3,
     "price": 49.99,
     "releaseDate": "2017-03-03"
 }

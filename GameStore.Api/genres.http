@@ -1,0 +1,2 @@
+//default
+GET http://localhost:5252/genres HTTP/1.1
